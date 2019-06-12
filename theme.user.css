@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Slack: Bigger emoji (2019)
+@namespace      github.com/openstyles/stylus
+@version        0.0.1
+@description    2x emoji for Slack
+@author         Trevor Joynson (trevorj) <github@skywww.net>
+==/UserStyle== */
+
+@-moz-document domain("slack.com") {
+	span.emoji,
+	span.emoji-outer {
+		width: 2em;
+		height: 2em;
+	}
+}
+
